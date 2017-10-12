@@ -55,8 +55,6 @@ export default class App extends React.Component {
     console.log(this.state);
   }
 
-
-
   changeCalc(){
     console.log(this.state);
     const totalOwed = this.state.amountGiven - this.state.amountDue;
@@ -128,7 +126,6 @@ export default class App extends React.Component {
 
   }
 
-
   render() {
     return (
       <div>
@@ -162,7 +159,7 @@ export default class App extends React.Component {
           {/* <!-- Output --> */}
           <div id="outputContainer" className="col-sm-7">
             <div>
-              <div className="change-heading" >{this.state.change}</div>
+              <div className="change-heading">{this.state.change}</div>
             </div>
             {/* <!-- dollarChange --> */}
             <div className="d-flex justify-content-center">
