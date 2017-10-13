@@ -202,6 +202,15 @@ export default class App extends React.Component {
           </div>
         </div>
       </div>
+      <br/>
+      <hr/>
+      <footer id="contact" class="page-footer default_color scrollspy">
+        <div class="footer-copyright default_color">
+          <div class="container">
+          Designed by <a class="white-text" href="https://www.linkedin.com/in/dangermin/">Dangermin</a>
+          </div>
+        </div>
+      </footer>
       </div>
     );
   }
